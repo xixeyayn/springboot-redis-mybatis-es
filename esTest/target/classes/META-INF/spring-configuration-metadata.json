@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "name": "spring.es",
+      "type": "com.aaa.config.EsProperties",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.redis",
+      "type": "com.aaa.config.RedisProperties",
+      "sourceType": "com.aaa.config.RedisProperties"
+    },
+    {
+      "name": "static",
+      "type": "com.aaa.config.StaticProperties",
+      "sourceType": "com.aaa.config.StaticProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.es.cluster-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.es.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.es.node-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.es.pool",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.es.port",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.EsProperties"
+    },
+    {
+      "name": "spring.redis.expire",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.RedisProperties"
+    },
+    {
+      "name": "spring.redis.maxattempts",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.RedisProperties"
+    },
+    {
+      "name": "spring.redis.maxtimeout",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.RedisProperties"
+    },
+    {
+      "name": "spring.redis.nodes",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.RedisProperties"
+    },
+    {
+      "name": "static.cluster-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.StaticProperties"
+    },
+    {
+      "name": "static.node-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.StaticProperties"
+    },
+    {
+      "name": "static.thread-search-size",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.StaticProperties"
+    },
+    {
+      "name": "static.transport-sniff",
+      "type": "java.lang.String",
+      "sourceType": "com.aaa.config.StaticProperties"
+    }
+  ],
+  "hints": []
+}
